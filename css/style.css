@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    background-color: black;
+}
+
+.prev , .next{
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.prev{
+    top: 10px;
+}
+
+.next{
+    bottom: 10px;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+}
+
+.item{
+    height: 100%;
+    /* display: none; */
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
