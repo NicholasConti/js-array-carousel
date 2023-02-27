@@ -13,9 +13,21 @@ slider.innerHTML = slider.innerHTML + itemsContent;
 //aggiunta classe ad item
 document.querySelector('.item').classList.add('show');
 
+// Lista di elementi con classe item
+const allClassItems = document.querySelectorAll('.item');
+
 // Events
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
-// Lista di elementi con classe item
-const allClassItems = document.querySelectorAll('.item');
-console.log(allClassItems)
+
+let active = 0;
+
+next.addEventListener('click', 
+    function() {
+        if(active < imgs.length - 1){
+            allClassItems[active].classList.remove('show');
+            active++;
+            allClassItems[active].classList.add('show');
+        }
+}
+)
