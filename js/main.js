@@ -10,4 +10,12 @@ for (let i = 0 ; i < imgs.length; i++){
 }
 
 slider.innerHTML = slider.innerHTML + itemsContent;
+//aggiunta classe ad item
 document.querySelector('.item').classList.add('show');
+
+// Events
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+// Lista di elementi con classe item
+const allClassItems = document.querySelectorAll('.item');
+console.log(allClassItems)
