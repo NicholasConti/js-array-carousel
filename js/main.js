@@ -21,12 +21,22 @@ const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
 
 let active = 0;
-
+// tanto next
 next.addEventListener('click', 
     function() {
         if(active < imgs.length - 1){
             allClassItems[active].classList.remove('show');
             active++;
+            allClassItems[active].classList.add('show');
+        }
+}
+)
+// tanto prev
+prev.addEventListener('click', 
+    function() {
+        if(active > 0){
+            allClassItems[active].classList.remove('show');
+            active--;
             allClassItems[active].classList.add('show');
         }
 }
