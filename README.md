@@ -18,3 +18,18 @@
         -rimuovo la classe show dall item[ative]
         -incremento active -1
         -assegno la classe show al intem[active-1]
+
+
+BONUS 1
+
+negli event listener:
+-Quando premo next
+    e active >= array.lenght -1 
+        -rimuovo la classe show dall item[ative]
+        -active = 0
+        - -assegno la classe show al intem[active]
+-Quando premo prev
+    e active = 0
+        -rimuovo la classe show dall item[ative]s
+        -active = array.lenght
+        - -assegno la classe show al intem[active-1]

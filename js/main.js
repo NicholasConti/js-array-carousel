@@ -28,6 +28,10 @@ next.addEventListener('click',
             allClassItems[active].classList.remove('show');
             active++;
             allClassItems[active].classList.add('show');
+        } else{
+            allClassItems[active].classList.remove('show');
+            active = 0;
+            allClassItems[active].classList.add('show');
         }
 }
 )
@@ -37,6 +41,10 @@ prev.addEventListener('click',
         if(active > 0){
             allClassItems[active].classList.remove('show');
             active--;
+            allClassItems[active].classList.add('show');
+        } else {
+            allClassItems[active].classList.remove('show');
+            active = (allClassItems.length - 1);
             allClassItems[active].classList.add('show');
         }
 }
