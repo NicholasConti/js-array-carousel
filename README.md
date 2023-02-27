@@ -33,3 +33,14 @@ negli event listener:
         -rimuovo la classe show dall item[ative]s
         -active = array.lenght
         - -assegno la classe show al intem[active-1]
+
+BONUS 2
+
+- Creo una variabile a cui aggancio la classe tumbnial dell HTML
+- Creo una variabile momentaneamente vuota in cui inseriro la stringa di codice HTML per inserire le immagini nella tumbnail
+- nel ciclo FOR 
+    -inserico nella variabile vuota della tumbnial il codice html sotto forma di stringa
+
+- assegno al primo elemento della tumbnail la classe selected per togliere l opacita
+- creo una variabile che seleziona tutti gli elementi con classe tumb-item
+-negli eventi aggiungo e tolgo la classe selected come fatto con show
