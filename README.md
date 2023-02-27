@@ -1,7 +1,7 @@
 - Creo un array contenente in nomi delle immagini
 - Creo una variabile a cui aggancio la classe slider dell HTML
 - Creo una variabile momentaneamente vuota in cui inseriro la stringa di codice HTML per inserire le immagini
-- in un ciclo For
+- in un ciclo FOR con i < array.lenght
     - inserico nella variabile vuota  il codice HTML per le immagini
 -inesrisco nello slider con innerHTML le stringhe inserite nella variabile che era vuota
 - assegno al primo elemento con classe item la classe show per mostrarlo a schermo
