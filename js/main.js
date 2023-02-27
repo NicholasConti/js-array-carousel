@@ -7,5 +7,7 @@ let itemsContent = '';
 //Riempimento html
 for (let i = 0 ; i < imgs.length; i++){
     itemsContent += `<div class="item"><img src="img/${imgs[i]}" alt=""></div>`;
-    console.log(itemsContent);
 }
+
+slider.innerHTML = slider.innerHTML + itemsContent;
+document.querySelector('.item').classList.add('show');
